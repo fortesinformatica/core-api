@@ -26,8 +26,9 @@ class Servico extends EntidadeComCodigo {
     public $QtdDeComissoes;
     public $Servico_id;
     public $TotalDosPercentuais;
-    public $Valor;
+    public $ValorUnitario;
     public $ValorDasComissoes;
+    public $Quantidade;
 
     public function getCodigo() {
         return $this->Codigo;
